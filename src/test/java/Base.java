@@ -43,9 +43,9 @@ public class Base {
     }
 
     public void selectBrowser(String browser) {
-        if (browser.equals(yandexBrowser)) {
+        if (browser.equals(chromeBrowser)) {
             driver = new ChromeDriver();
-        } else if (browser.equals(chromeBrowser)) {
+        } else if (browser.equals(yandexBrowser)) {
             System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\yandexdriver.exe");
             driver = new ChromeDriver();
         }

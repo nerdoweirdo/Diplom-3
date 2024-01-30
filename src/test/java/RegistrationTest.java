@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import static org.junit.Assert.assertTrue;
 
 
-public class RegistrationTest {
+public class RegistrationTest extends Base {
 
     private WebDriver driver;
     private MainPage mainPage;
